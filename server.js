@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 app.use(require('./routes'));
-
+//connection to database is made
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/pizza-hunt', {
   useFindAndModify: false,
   useNewUrlParser: true,

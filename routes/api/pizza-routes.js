@@ -1,5 +1,5 @@
 const router = require('express').Router();
-
+//shortcut for defining the diffrent requests
 const {
     getAllPizza,
     getPizzaById,

@@ -1,4 +1,5 @@
 const router = require('express').Router();
+//shortcut for all of the api requests
 const {
     addComment,
     removeComment,
